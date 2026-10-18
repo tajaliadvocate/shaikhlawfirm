@@ -1,0 +1,32 @@
+SHAIKH LAW FIRM — VERCEL DEPLOYMENT
+
+1. Extract taj-ali-advocate-vercel.zip.
+2. Put the extracted files into your GitHub repository. index.html and vercel.json must be at the repository root (not inside an extra folder).
+3. Import that repository into Vercel.
+4. Use Framework Preset: Other. No build command is needed. Serve the root directory (Output Directory: .).
+5. Deploy. This static website does not need environment variables or an email password.
+
+EMAIL ACTIVATION — COMPLETE AFTER DEPLOYMENT
+
+Recipient: tajaliadvocate@gmail.com
+Service: FormSubmit (https://formsubmit.co/)
+
+1. Open the deployed HTTPS website and submit one clearly labelled test enquiry using your own contact details.
+2. Complete FormSubmit's spam verification if prompted.
+3. Open tajaliadvocate@gmail.com, check Inbox and Spam, and approve the FormSubmit activation email if requested.
+4. Return to the live website and send a SECOND test enquiry.
+5. Confirm that the email arrives with name, email, phone, matter type, full message and consent. Use Reply to check the visitor's email is the reply recipient.
+
+Do not treat the first activation request as proof of delivery. Inbox receipt has NOT been verified during local testing. If you add a custom domain, test the form again from that domain.
+
+The form uses POST, named fields and FormSubmit's table email template. Required fields: name, email, phone/WhatsApp, matter type, message, consent. Spam verification and a hidden honeypot are enabled. Do not disable spam protection.
+
+LOCAL CHECKS COMPLETED
+- Required field configuration and submission destination checked.
+- Malformed email and invalid phone checks verified; no real enquiry was sent.
+- Urdu language switching preserves the selected case type and submission values.
+- Phone-width and tablet-width overflow checks passed.
+- Mobile navigation checked. Asset paths, anchors and JavaScript syntax checked.
+
+Working hours: 8:00 AM–6:00 PM. Visits by appointment.
+Exact map pin and verified bar membership details are still awaiting confirmation; the current map link searches the chamber area.
